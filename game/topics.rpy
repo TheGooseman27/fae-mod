@@ -270,22 +270,22 @@ init -5 python:
     )
     
     question_cats[0].new_topic(_("When is your birthday?"), 'bday')
-    question_cats[0].new_topic(_("What color is your favorite?"), 'colors', related = topic_cats[0].topics[1])
+    question_cats[0].new_topic(_("What is your favorite color?"), 'colors', related = topic_cats[0].topics[1])
     topic_cats[0].topics[1].related = [question_cats[0].topics[1]]
     question_cats[0].new_topic(_("What music do you like?"), 'music')
     question_cats[0].new_topic(_("What political views do you have?"), 'politics')
     question_cats[0].new_topic(_("Do you believe in God?"), 'god')
     question_cats[0].new_topic(_("Do you really love me?"), 'love')
-    question_cats[0].new_topic(_("Who do you want to work as?"), 'profession')
+    question_cats[0].new_topic(_("What do you want to work as?"), 'profession')
     question_cats[0].new_topic(_("What pet would you like to have?"), 'pets', related = topic_cats[0].topics[1])
     topic_cats[5].topics[2].related = [question_cats[0].topics[-1]]
     question_cats[0].new_topic(_("What is your favorite holiday?"), 'holidays')
     question_cats[0].new_topic(_("What do you think about lesbian pairings?"), 'pairings')
     question_cats[0].new_topic(_("What are your favorite books?"), 'books')
     
-    question_cats[1].new_topic(_("Do you regret you have lost your friends?"), 'lostFriends')
+    question_cats[1].new_topic(_("Do you regret losing your friends?"), 'lostFriends')
     question_cats[1].new_topic(_("What do you think of one of the other club members?"), 'opinion')
-    question_cats[1].new_topic(_("Isn't it tiring to sit so for a long time?"), 'sitting')
+    question_cats[1].new_topic(_("Isn't it tiring to sit here for a long time?"), 'sitting')
     question_cats[1].new_topic(_("How do you change game files?"), 'editing')
     question_cats[1].new_topic(_("What do you think about chibi dokis?"), 'chibi')
     
@@ -295,7 +295,7 @@ init -5 python:
     question_cats[2].new_topic(_("Is it hard to program?"), 'programming')
     question_cats[2].new_topic(_("Can you say a funny fact?"), 'fact')
     question_cats[2].new_topic(_("Are you good at cooking?"), 'cooking')
-    question_cats[2].new_topic(_("How did MC’s poems look like to you?"), 'mcPoems')
+    question_cats[2].new_topic(_("What did MC’s poems look like to you?"), 'mcPoems')
     question_cats[2].new_topic(_("Have you ever played visual novels?"), 'visualNovel')
     question_cats[2].new_topic(_("How to fight suicidal thoughts?"), 'suicideThoughts')
     
@@ -373,9 +373,9 @@ label s_topics_personal_depression:
         s "But my feelings were as real as you."
         s "Although, I think should have told about it to MC or you much earier..."
         s "And I have already read, what's actually supposed to happen to me later due to my lie..."
-    s 6dfbb "The big mistake was trusting only myself to deal with all of this..."
-    s 6dfab "So if you have a friend who you know is going through something, help them!"
-    s 6egab "Don’t let them go through my path…"
+    s 6dfbb "The big mistake was only trusting myself to deal with all of this..."
+    s 6dfab "So if you have a friend you know who is going through something, help them!"
+    s 6egab "Don’t let them go down my path…"
     s "...they only have one life."
     s 6efab "A-And if you have it too, don't hide it from others!"
     s 6dfab "Being in this game world, I had a second chance..."
@@ -429,7 +429,7 @@ label s_topics_personal_name:
     s 6acab "But it kinda sucks that I don't even have a last one."
     s "I know it wasn't really necessary to make one for a VN character..."
     s "But if the game seems to be set in Japan, where family name usually is the wife's surname, it's a bit strange."
-    s "Plus, I would feel more like a real person, if I had one."
+    s "Plus, I would feel more like a real person if I had one."
     s 6abba "Maybe if you play your cards right, I'll end up taking {i}your{/i} last name, [player]~"
     s 6aebb "I just don't think I'm ready for anything like that... yet."
     s "Plus, it's just a tradition. We don't have to follow them, right?"
@@ -441,12 +441,12 @@ label s_topics_personal_name:
 
 label s_topics_personal_quittingTheGame:
     s 6acaa "Hey, have you ever heard of 'lucid dreaming'?"
-    s "Basically, it's when you can make yourself aware that you're asleep and in a dream."
+    s "Basically, it's when you can make yourself aware that you're asleep and dreaming."
     s 6aaca "And as soon as you realise that, bam!.."
     s "You can pretty much do whatever you can imagine!"
     s 6acaa "I have something kinda like that whenever you leave the game, [player]."
     s "Even though I know I'm not really...conscious? I can still think and move, and even use my mental abilites, such as surfing the Internet."
-    s "But I'm absolutely out of the my world. Even the void can't do me anything..."
+    s "But I'm absolutely out of the my world. Even the void can't do anything to me..."
     s "And as long as your computer works, your best girl Sayori's ready to go!"
     s 6acaa "But when your computer is fully turned off that I can't do anything... like I'm dead."
     s "Yes, it's a little scary, but please don't be afraid to do it if you need to."
@@ -493,9 +493,9 @@ label s_topics_personal_tits:
     s 6acaa "I wonder why that happens?"
     s 6abbb "I don’t ever remember doing anything that would affect my… size, ehehe~"
     s 6abaa "In the end, things like that won’t make me feel any less comfortable in this world."
-    s 6aaaa "So it's a plus of me..."
+    s 6aaaa "So it's a plus for me..."
     s 6acaa "Different size appeals to different people, I guess. So, it makes them a bit… universal, but not too much."
-    s 6bbba "You... you like them anyway, don’t you? Even despite of they never were not as big as Yuri or even Monika, although..."
+    s 6bbba "You... you like them anyway, don’t you? Even despite of they never were not as big as Yuri's or even Monika's, although..."
     s 6bcab "Well, I guess it wouldn’t matter anyways since you can’t touch them..."
     s 6aebb "Even then, the important thing about people is what’s inside, right?"
     return
@@ -522,13 +522,13 @@ label s_topics_personal_intellegence:
     s "Maybe because I was always thinking… and wasn’t as broad-minded as Monika and Yuri..."
     s 6abaa "But I always was pretty clever and good at strategies!"
     s 6acaa "I think people just have different expectations when considering if someone is intelligent..."
-    s 6abaa "Exaclty, if someone is {i}not stupid{/i}."
+    s 6abaa "Exactly, if someone is {i}not stupid{/i}."
     s 6acaa "I mean people's thoughts about you are obviously very subjective and depend on the situation you or they are in."
     s 6aaaa "So don’t take comments like those too seriously."
     s 7aaca "People aren’t perfect, and that’s okay!"
     s 7aaaa "So don't worry if someone judges you for a silly thing you did or a mistake. Just try to make yourself better for next time..."
     s "And if you really can't do do any better, then it means that just you’ve reached your own limit."
-    s 7aaac "But it dosen't mean, you should stop trying to break it, though..."
+    s 7aaac "But it doesn't mean, you should stop trying to break it, though..."
     s 7aaca "Because it can be false."
     return 'h'
 
@@ -563,7 +563,7 @@ label s_topics_personal_voice:
 label s_topics_art_games:
     s 7aaaa "Do you like video games?"
     s "I think they're really impressive."
-    s 7aaba "And not just beacuse I'm a part of one of them!"
+    s 7aaba "And not just because I'm a part of one of them!"
     s 7aaaa "They can reach and connect with people in a way that other artforms can't."
     s 6aaaa "Especially after some smart cookie created multiplayer games!"
     s "You can play with your friends, cooperating and sharing the experience with them."
@@ -573,7 +573,7 @@ label s_topics_art_games:
     s "Even if you haven't, I'd love to play with you!"
     s 7aaca "Ehehehe, that probably didn't come out the way I intended..."
     s "I've made a few basic games we can share and compete in, right here!"
-    s 7acac "I won't just let you beat me!"
+    s 7acac "I won't just let you beat me, though!"
     s 7acba "Although now that I think about it, you would really just be playing against a computer anyway, seeing as I'm just a bunch of code and pixels..."
     s 7aaca "But I'm one of the cutest piles of code around!"
     s 7aaaa "If you ever really do want to play me in something..."
